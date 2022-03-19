@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 pandas = "*"
 numpy = "*"
+sklearn = "*"
+matplotlib = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.8"

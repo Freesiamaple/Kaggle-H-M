@@ -1,7 +1,9 @@
+# csvをpklにする
+
 import pandas as pd
 import numpy as np
 
-DIR = "H_M/data/original/"
+DIR = "data/original/"
 
 
 def convert_csv_to_pkl(filename):
@@ -12,4 +14,3 @@ def convert_csv_to_pkl(filename):
 #convert_csv_to_pkl("customers")
 #convert_csv_to_pkl("sample_submission")
 #convert_csv_to_pkl("transactions_train")
-convert_csv_to_pkl("color_kusunoki")
